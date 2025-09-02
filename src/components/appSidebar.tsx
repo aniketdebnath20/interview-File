@@ -50,16 +50,6 @@ export function AppSidebar({ searchQuery, books, onSearch, isLoading }: AppSideb
                   )}
                 </div>
               )}
-
-              <div className="space-y-3">
-                <h3 className="text-sm font-medium text-foreground">Quick Tips</h3>
-                <ul className="text-sm text-muted-foreground space-y-2">
-                  <li>• Search by book title</li>
-                  <li>• Try author names</li>
-                  <li>• Use keywords</li>
-                  <li>• Check spelling</li>
-                </ul>
-              </div>
             </div>
           </SidebarGroupContent>
         </SidebarGroup>
